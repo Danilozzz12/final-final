@@ -5,8 +5,8 @@ from requests.auth import HTTPBasicAuth
 
 from keep_alive import keep_alive
 
-PINNACLE_USERNAME = os.getenv("PINNACLE_USERNAME")
-PINNACLE_PASSWORD = os.getenv("PINNACLE_PASSWORD")
+PINNACLE_USERNAME = os.getenv("danilocarreira05@gmail.com")
+PINNACLE_PASSWORD = os.getenv("PN11pn12")
 
 def test_pinnacle_api():
     url = "https://api.pinnacle.com/v1/sports"
